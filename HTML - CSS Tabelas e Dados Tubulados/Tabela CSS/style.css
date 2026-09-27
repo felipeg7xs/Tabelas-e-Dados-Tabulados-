@@ -1,0 +1,30 @@
+/*      Descrição: Estruturação e Estilização da tabela
+        Nome_Arquivo:index.html
+        Nome do exercío: Aula 11 - Tabelas e Dados Tubulados
+        Nome do Aluno: Felipe Gabriel
+        Email_aluno: felipe.oliveira139@aluno.cps.sp.gov.br
+        Turma: Código da Turma: WEBI-ISW028-A */
+        
+table, th td {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: silver;
+    font-weight: bold;
+}
+
+.status {
+    font-weight:bold;
+    text-align: center;
+}
+
+.status.status-ok {
+    background-color: green;
+}
+
+.status.status-vazio {
+    background-color: red;
+}
+
